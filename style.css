@@ -1,0 +1,282 @@
+header{
+    
+    background: transparent url(./assets/images/HouDowntownImg.png) no-repeat center 25%/cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+#top {
+    display: flex !important;
+    justify-content: space-between;
+    border: solid #cc5500;
+    min-height: 100px;
+    min-width: 200px;
+    align-items: center;
+
+}
+.navbar li{
+    background-color: rgba(44, 44, 44, 0.8);
+    border:1px solid #cc5500;
+    padding:5px 10px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    margin: 0;
+    border-radius: 25px;
+    
+  
+
+}
+.leftside{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    align-self: flex-start;
+
+}
+
+.middle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+    font-size: 32px;
+  
+
+   
+}
+.rightside{
+    color: #cc5500;
+    align-self: flex-start;
+   
+}
+.logo{
+
+    height: 100px;
+    width: 100px;
+    padding-top: 25px;
+}
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    padding-top: 30px;
+
+
+}
+.item{
+    /* background-color: #e20c0c; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+   
+
+}
+
+ .headshot{
+    width: 100%;
+    height: 100%;
+    border: solid #cc5500;
+   
+    
+}
+
+.photo{
+    
+    /* background-color: blueviolet; */
+    grid-area:  1/2/2/4;
+}
+.third{
+    /* background-color: blue; */
+    order: 1;
+    grid-area: 2/1/3/4;
+   
+}
+h1{
+    
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 24px;
+    margin-bottom: 10px;
+}
+h2{
+    color: #cc5500;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+h3{
+    color: gray;
+    padding: 20px;
+    margin: 0;
+    font-size: 24px;
+}
+h4{
+    font-size: 24px;
+    color: #cc5500;
+
+}
+.item p{
+    padding: 10px;
+    margin: 0;
+   
+}
+
+.firstsection{
+    background: transparent url(./assets/images/bckgrdcarwreck.jpg) no-repeat center 30%/cover;
+
+}
+.firstsection p{
+    
+   
+    background-color: rgba(0,0,0,.5) ;
+    color: #fff;
+    margin: 30px
+
+}
+
+
+.title{
+    color: white;
+    display: inline-block;
+    background-color: #cc5500;
+    border-radius: 25px;
+}
+
+.mid h3{ 
+    float: left;
+    color: white;
+    text-align: left;
+    background-color: gray ;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.mid p{
+    clear: left;
+    margin-bottom: 10px ;
+    padding: 20px;
+}
+.mid button{
+    height: 50px;
+    width: 25%;
+    background-color: #cc5500;
+    border-radius: 24px;
+    color: #fff;
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.freewaypic{
+   float: left;
+   height: 200px;
+   width: 20%;
+   padding: 0;
+   margin: 0;
+  
+  
+}
+.thirdsec h3{
+   float: inline-end;
+   color: #cc5500;
+   margin-top: 30px;
+   margin-bottom: 20px;
+    
+}
+.thirdsec p{
+   text-align: center;
+   padding-left: 23%;
+}
+.split{
+    display: inline-block;
+    flex-direction: column;
+    border: solid #cc5500; 
+    border-radius: 10px;
+    
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+   
+footer ul{
+   margin-top: auto;
+   background: transparent url(./assets/images/HouDowntownImg.png) no-repeat center 25%/cover;
+   background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* your image */
+    url(./assets/images/HouDowntownImg.png);
+   list-style: none;
+   text-align: left;
+   padding: 10px;
+   
+}
+
+.footTitle{
+    color: white;
+    background-color: #cc5500;
+    display: block;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#formOne{
+
+   display: none;
+  
+
+
+}
+
+p{
+
+    font-family: 'Roboto', sans-serif;  /* or 'Lora', 'Montserrat', 'Poppins' */
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333; /* Dark text for good contrast */
+    margin: 0;
+    padding: 0;
+
+}
+
+p .split{
+
+    font-size: 24px;
+
+
+
+}
